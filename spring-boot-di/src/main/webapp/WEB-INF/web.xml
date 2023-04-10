@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context-param>  
+    <param-name>webAppRootKey</param-name>  
+    <param-value>projectName.root</param-value>    <!-- It is recommended to use "project name.root"-->
+</context-param>  
