@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset = "UTF-8"/>
+<title th:text = "${titulo}"></title>
+</head>
+<body>
+<h1 th:text = "${titulo}"></h1>
+<ul>
+<li><a th:href = "@{/variables/string/} + 'Hola Luciano'">Link a el test de las variables dinamicas</a></li>
+<li><a th:href = "@{/variables/string/} + 'Lucho perreke'">Link a el test de las variables dinamicas 2</a></li>
+<li><a th:href = "@{/variables/string/} + 'Saludos Luciano' + '/' + 7">Link a el test de las variables dinamicas 3 (tiene el numero)</a></li>
+
+</ul>
+</body>
+</html>
